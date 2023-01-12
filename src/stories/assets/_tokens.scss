@@ -1,0 +1,91 @@
+// Compatible with @progress/kendo-theme-default v.5.8.0
+
+
+$tb-kendo-border-radius: 20px;
+$tb-dark-theme: false;
+$tb-primary: #ffcc66;
+$tb-secondary: #cc88ff;
+$tb-info: #7788ff;
+$tb-success: #33cc99;
+$tb-warning: #ffcc66;
+$tb-error: #dd4444;
+$tb-body-bg: #000;
+$tb-body-text: #ffffffff;
+$tb-heading-text: #ffaa90;
+$tb-subtle-text: #cc88ff;
+$tb-disabled-text: #8f8f8f;
+$tb-component-bg: #666688;
+$tb-component-text: $tb-body-text;
+$tb-base-bg: $tb-body-bg;
+$tb-base-text: $tb-primary;
+$tb-hovered-bg: $tb-base-bg;
+$tb-hovered-text: $tb-base-text;
+$tb-selected-bg: $tb-secondary;
+$tb-selected-text: #ffffff;
+$tb-kendo-button-bg: #aaaaff;
+$tb-kendo-button-text: $tb-base-bg;
+$tb-link-text: $tb-heading-text;
+$tb-link-hover-text: $tb-primary;
+$tb-series-a: $tb-error;
+$tb-series-b: $tb-heading-text;
+$tb-series-c: $tb-secondary;
+$tb-series-d: $tb-kendo-button-bg;
+$tb-series-e: $tb-warning;
+$tb-series-f: #7788ff;
+
+$kendo-border-radius: $tb-kendo-border-radius;
+$dark-theme: $tb-dark-theme;
+$primary: $tb-primary;
+$secondary: $tb-secondary;
+$info: $tb-info;
+$success: $tb-success;
+$warning: $tb-warning;
+$error: $tb-error;
+$body-bg: $tb-body-bg;
+$body-text: $tb-body-text;
+$heading-text: $tb-heading-text;
+$subtle-text: $tb-subtle-text;
+$disabled-text: $tb-disabled-text;
+$component-bg: $tb-component-bg;
+$component-text: $tb-component-text;
+$base-bg: $tb-base-bg;
+$base-text: $tb-base-text;
+$hovered-bg: $tb-hovered-bg;
+$hovered-text: $tb-hovered-text;
+$selected-bg: $tb-selected-bg;
+$selected-text: $tb-selected-text;
+$kendo-button-bg: $tb-kendo-button-bg;
+$kendo-button-text: $tb-kendo-button-text;
+$link-text: $tb-link-text;
+$link-hover-text: $tb-link-hover-text;
+$series-a: $tb-series-a;
+$series-b: $tb-series-b;
+$series-c: $tb-series-c;
+$series-d: $tb-series-d;
+$series-e: $tb-series-e;
+$series-f: $tb-series-f;
+$font-family: "Arial Narrow";
+$font-size: 14px;
+$font-weight-normal: 300;
+$line-height: 1.4285714286;
+
+$enable-gradients: true;
+
+$tb-typography: (
+  default-typography: (
+      font-family: '"Arial Narrow"',
+      font-size: 14px,
+      font-weight: 300,
+      line-height: 1.4285714286,
+  ),
+);
+
+@mixin typography-classes ($typography) {
+  @each $selector, $property in $typography {
+    &-#{$selector} {
+      @each $propName, $propValue in $property {
+        #{$propName}: $propValue;
+      }
+    }
+  }
+}

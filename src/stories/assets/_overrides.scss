@@ -1,0 +1,174 @@
+// Compatible with @progress/kendo-theme-default v.5.8.0
+
+%tb-typography {
+  @include typography-classes($tb-typography);
+}
+
+    .k-chip.k-chip-solid-base{
+        background-color: $tb-info;
+                background-image: none;
+                color: $tb-body-text;
+        
+}
+    .k-chip{
+        background-color: $tb-info;
+                background-image: none;
+                color: $tb-body-text;
+        
+}
+    .k-switch.k-switch-off .k-switch-thumb-wrap .k-switch-thumb{
+        background-color: $tb-kendo-button-bg;
+                background-image: none;
+        
+}
+    .k-dialog-wrapper .k-window.k-dialog .k-window-titlebar.k-dialog-titlebar{
+        border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-dialog-wrapper .k-window.k-dialog{
+        border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+        
+}
+    .k-window .k-window-titlebar.k-dialog-titlebar{
+        border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-window{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar .k-panelbar-item.k-panelbar-header.k-level-0{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar .k-panelbar-item.k-panelbar-header.k-level-0 .k-link{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-1 .k-link.k-hover,.k-panelbar .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-1  .k-link.k-state-hover,.k-panelbar .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-1  .k-link.k-state-hovered,.k-panelbar .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-1  .k-link:hover{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-1 .k-link.k-selected{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar .k-level-1 .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-2 .k-link.k-hover,.k-panelbar .k-level-1 .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-2  .k-link.k-state-hover,.k-panelbar .k-level-1 .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-2  .k-link.k-state-hovered,.k-panelbar .k-level-1 .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-2  .k-link:hover{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-panelbar .k-level-1 .k-group.k-panelbar-group.k-panel .k-panelbar-item.k-level-2 .k-link.k-selected{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-drawer-container.k-drawer-expanded.k-drawer-push .k-drawer.k-drawer-start .k-drawer-wrapper .k-drawer-items .k-drawer-item{
+        border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+        
+}
+    .k-drawer-container.k-drawer-expanded.k-drawer-push .k-drawer.k-drawer-start .k-drawer-wrapper .k-drawer-items .k-drawer-item.k-hover,.k-drawer-container.k-drawer-expanded.k-drawer-push .k-drawer.k-drawer-start .k-drawer-wrapper .k-drawer-items  .k-drawer-item.k-state-hover,.k-drawer-container.k-drawer-expanded.k-drawer-push .k-drawer.k-drawer-start .k-drawer-wrapper .k-drawer-items  .k-drawer-item.k-state-hovered,.k-drawer-container.k-drawer-expanded.k-drawer-push .k-drawer.k-drawer-start .k-drawer-wrapper .k-drawer-items  .k-drawer-item:hover{
+        background-color: $tb-body-bg;
+                background-image: none;
+        
+}
+    .k-button{
+        text-transform: uppercase;
+                justify-content: center;
+                background-color: $tb-kendo-button-bg;
+                background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02));
+                padding-right: 10px;
+                padding-left: 10px;
+        
+}
+    .k-button.k-button-solid-base{
+        text-transform: uppercase;
+                justify-content: center;
+                background-color: $tb-kendo-button-bg;
+                background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02));
+                padding-right: 10px;
+                padding-left: 10px;
+        
+}
+    .k-button.k-button-md{
+        text-transform: uppercase;
+                justify-content: center;
+                background-color: $tb-kendo-button-bg;
+                background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02));
+                padding-right: 10px;
+                padding-left: 10px;
+        
+}
+    .k-switch.k-switch-on .k-switch-thumb-wrap .k-switch-thumb{
+        background-color: $tb-disabled-text;
+                background-image: none;
+        
+}
+    .k-button-group .k-button .k-button-icon.k-icon{
+        padding-bottom: 0px;
+        
+}
+    .k-button-group .k-button.k-group-start .k-button-icon.k-icon,.k-button-group  .k-button:first-child .k-button-icon.k-icon{
+        padding-bottom: 5px;
+        
+}
+    .k-button .k-button-icon.k-icon{
+        padding-bottom: 6px;
+        
+}
+    .k-button .k-button-text{
+        background-color: initial;
+                background-image: none;
+        
+}
+    .k-button.k-button-solid-primary{
+        background-color: $tb-primary;
+                background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02));
+        
+}
+    .k-slider .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-rounded-full.k-button-decrease .k-button-icon.k-icon.k-i-caret-alt-left{
+        padding-bottom: 0px;
+        
+}
+    .k-slider .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-rounded-full.k-button-increase .k-button-icon.k-icon.k-i-caret-alt-right{
+        padding-bottom: 0px;
+        
+}
