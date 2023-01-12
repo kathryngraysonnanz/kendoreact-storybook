@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FloatingActionButton as KendoFloatingActionButton } from "@progress/kendo-react-buttons";
 import './assets/index.scss';
 
-export const FloatingActionButton = ({text, ...props }) => {
+export const FloatingActionButton = ({...props }) => {
   return (
     <>
       <KendoFloatingActionButton {...props}/>
