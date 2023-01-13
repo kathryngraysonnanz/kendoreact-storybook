@@ -7,6 +7,7 @@
     "@progress/kendo-drawing": "^1.17.2",
     "@progress/kendo-licensing": "^1.3.0",
     "@progress/kendo-react-animation": "^5.9.0",
+    "@progress/kendo-react-barcodes": "^5.9.0",
     "@progress/kendo-react-buttons": "^5.9.0",
     "@progress/kendo-react-charts": "^5.9.0",
     "@progress/kendo-react-conversational-ui": "^5.9.0",
