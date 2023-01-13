@@ -15,3 +15,4 @@ const Template = (args) => <Toolbar {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
+Primary.storyName = 'Toolbar';

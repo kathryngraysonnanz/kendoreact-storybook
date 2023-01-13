@@ -15,3 +15,4 @@ const Template = (args) => <ChipList {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
+Primary.storyName = 'Chip List';

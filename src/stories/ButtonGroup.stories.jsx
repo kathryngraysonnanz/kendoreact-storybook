@@ -14,3 +14,4 @@ const Template = (args) => <ButtonGroup {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
+Primary.storyName = 'Button Group';
