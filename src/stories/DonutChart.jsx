@@ -11,8 +11,6 @@ import './assets/index.scss';
 import data from "./assets/power-distribution.json";
 
 export const DonutChart = ({...props }) => {
-
-
   return (
     <>
     <Chart>
