@@ -9,12 +9,16 @@ export const Icons = ({...props }) => {
 
   return (
     <>
-    <div>
+    <div style={{display: "flex", flexWrap: 'wrap', justifyContent: "space-evenly", alignItems: "center"}}>
       {iconOptions.map((name) => {
         return (
-          <span>
+          <span style={{minWidth: '30%'}}>
+           <span style={{display: 'flex', justifyContent: 'center', width: "100%"}}>
             <Icon name={name} {...props} />
+            </span>
+             <span style={{display: 'flex', justifyContent: 'center', width: "100%"}}>
             <p className="title">{name}</p>
+            </span>
           </span>
         );
       })}

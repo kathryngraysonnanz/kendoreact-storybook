@@ -8,12 +8,16 @@ export const SVGIcons = ({...props }) => {
 
   return (
     <>
-    <div className="svg-wrapper">
+    <div style={{display: "flex", flexWrap: 'wrap', justifyContent: "space-evenly", alignItems: "center"}}>
       {Object.keys(svgIcons).map((key, index) => {
         return (
-          <span key={index}>
+          <span key={index} style={{minWidth: '30%'}}>
+            <span style={{display: 'flex', justifyContent: 'center', width: "100%"}}>
             <SvgIcon icon={svgIcons[key]} {...props} />
+            </span>
+            <span style={{display: 'flex', justifyContent: 'center', width: "100%"}}>
             <p className="title">{key}</p>
+            </span>
           </span>
         );
       })}
