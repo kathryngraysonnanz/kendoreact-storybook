@@ -1,18 +1,18 @@
 import React from 'react';
 
-import { ConversationalUI } from './ConversationalUI';
+import { DataGrid } from './DataGrid';
 
 export default {
-  title: 'Conversational UI/Conversational UI',
-  component: ConversationalUI,
+  title: 'Data Grid/DataGrid',
+  component: DataGrid,
   argTypes: {
 
   },
 };
 
-const Template = (args) => <ConversationalUI {...args} />;
+const Template = (args) => <DataGrid {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
 };
-Primary.storyName = 'Conversational UI';
+Primary.storyName = 'Data Grid';

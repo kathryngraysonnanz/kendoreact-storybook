@@ -1,64 +1,61 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Chat } from '@progress/kendo-react-conversational-ui';
+import { Grid, GridColumn } from "@progress/kendo-react-grid";
 import './assets/index.scss';
+import data from './assets/datagrid-data'
 
-export const ConversationalUI = ({...props }) => {
-
-  const user = {
-    id: 1,
-  };
-  const bot = {
-    id: 0
-  };
-  const initialMessages = [{
-    author: bot,
-    suggestedActions: [{
-      type: 'reply',
-      value: 'Neat!'
-    }],
-    timestamp: new Date(),
-    text: "Hello, this is a demo bot. I don't do much, but I can count symbols!"
-  }];
-
-  const [messages, setMessages] = React.useState(initialMessages);
-  const addNewMessage = event => {
-    let botResponse = Object.assign({}, event.message);
-    botResponse.text = countReplayLength(event.message.text);
-    botResponse.author = bot;
-    setMessages([...messages, event.message]);
-    setTimeout(() => {
-      setMessages(oldMessages => [...oldMessages, botResponse]);
-    }, 1000);
-  };
-  const countReplayLength = question => {
-    let length = question.length;
-    let answer = question + " contains exactly " + length + " symbols.";
-    return answer;
-  };
+export const DataGrid = ({...props }) => {
 
   return (
     <>
-    <Chat {...props} user={user} messages={messages} onMessageSend={addNewMessage} placeholder={"Type a message..."} width={400} />
+    <Grid {...props} data={data} style={{height: '350px'}}>
+     <GridColumn field="ProductID" title="ID" width="40px" />
+     <GridColumn field="ProductName" title="Name" width="250px" />
+     <GridColumn field="Category.CategoryName" title="CategoryName" />
+     <GridColumn field="UnitPrice" title="Price" />
+     <GridColumn field="UnitsInStock" title="In stock" />
+   </Grid>
     </>
   );
 };
 
-ConversationalUI.propTypes = {
-  attachmentTemplate: PropTypes.any,
+DataGrid.propTypes = {
+  ariaLabel: PropTypes.string,
+  children: PropTypes.node,
   className: PropTypes.string,
-  dir: PropTypes.oneOf(['ltr', 'rtl', 'auto']),
-  message: PropTypes.element,
-  messageBox: PropTypes.element,
-  messages: PropTypes.any,
-  messageTemplate: PropTypes.element,
-  placeholder: PropTypes.string,
-  showToolbar: PropTypes.any,
-  toolbar: PropTypes.any,
-  user: PropTypes.any,
-  width: PropTypes.number
-
+  columnMenu: PropTypes.element,
+  columnVirtualization: PropTypes.bool,
+  data: PropTypes.any,
+  dataItemKey: PropTypes.string,
+  detail: PropTypes.element,
+  editField: PropTypes.string,
+  expandField: PropTypes.string,
+  filter: PropTypes.any,
+  filterable: PropTypes.bool,
+  filterOperators: PropTypes.any,
+  fixedScroll: PropTypes.bool,
+  group: PropTypes.any,
+  groupable: PropTypes.bool,
+  id: PropTypes.string,
+  lockGroups: PropTypes.bool,
+  navigatable: PropTypes.bool,
+  pageable: PropTypes.bool,
+  pager: PropTypes.any,
+  pageSize: PropTypes.number,
+  reorderable: PropTypes.bool,
+  resizeable: PropTypes.bool,
+  rowHeight: PropTypes.number,
+  scrollable: PropTypes.oneOf(['none', 'scrollable', 'virtual']),
+  selectable: PropTypes.any,
+  selectedField: PropTypes.string,
+  size: PropTypes.oneOf(['small', 'medium']),
+  skip: PropTypes.number,
+  sort: PropTypes.any,
+  sortable: PropTypes.any,
+  style: PropTypes.any,
+  take: PropTypes.number,
+  total: PropTypes.number
 };
 
-ConversationalUI.defaultProps = {
+DataGrid.defaultProps = {
 };
