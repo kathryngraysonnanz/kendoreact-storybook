@@ -3,7 +3,7 @@ import React from 'react';
 import { Icons } from './Icons';
 
 export default {
-  title: 'Utilities/Icons',
+  title: 'Common Utilities/Icons',
   component: Icons,
   argTypes: {
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { SVGIcons } from './SVGIcons';
 
 export default {
-  title: 'Utilities/SVG Icons',
+  title: 'Common Utilities/SVG Icons',
   component: SVGIcons,
   argTypes: {
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { Animations } from './Animations';
 
 export default {
-  title: 'Animations/Animation Previews',
+  title: 'Animation/Animation Previews',
   component: Animations,
   argTypes: {
 

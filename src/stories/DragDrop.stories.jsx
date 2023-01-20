@@ -3,7 +3,7 @@ import React from 'react';
 import { DragDrop } from './DragDrop';
 
 export default {
-  title: 'Utilities/Drag & Drop',
+  title: 'Common Utilities/Drag & Drop',
   component: DragDrop,
   argTypes: {
 
