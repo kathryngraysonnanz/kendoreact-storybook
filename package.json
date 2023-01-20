@@ -12,7 +12,7 @@
     "@progress/kendo-react-charts": "^5.9.0",
     "@progress/kendo-react-common": "^5.10.0",
     "@progress/kendo-react-conversational-ui": "^5.10.0",
-    "@progress/kendo-react-data-tools": "^5.9.0",
+    "@progress/kendo-react-data-tools": "^5.10.0",
     "@progress/kendo-react-dateinputs": "^5.9.0",
     "@progress/kendo-react-dialogs": "^5.9.0",
     "@progress/kendo-react-dropdowns": "^5.9.0",
