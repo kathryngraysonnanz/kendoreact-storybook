@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Window } from './window';
+import { Window } from './Window';
 
 export default {
   title: 'Dialogs/Window',
