@@ -10,7 +10,7 @@ export const Window = ({...props }) => {
   };
   return (
     <div>
-      <button onClick={toggleDialog}> Open Dialog </button>
+      <button onClick={toggleDialog}> Open Window </button>
       {visible && (
         <KendoWindow {...props} themeColor="dark" onClose={toggleDialog}>
           <p>Hello World</p>

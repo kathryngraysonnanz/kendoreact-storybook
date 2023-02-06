@@ -15,4 +15,4 @@ const Template = (args) => <Window {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
-Primary.storyName = 'Dialog';
+Primary.storyName = 'Window';
