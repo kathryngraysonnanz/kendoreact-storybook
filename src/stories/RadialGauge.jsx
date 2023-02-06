@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ArcGauge as KendoArcGauge } from "@progress/kendo-react-gauges";
+import { RadialGauge as KendoRadialGauge} from "@progress/kendo-react-gauges";
 import './assets/index.scss';
 
-export const ArcGauge = ({...props }) => {
+export const RadialGauge = ({...props }) => {
 
   const arcCenterRenderer = (value, color) => {
     return (
@@ -17,12 +17,15 @@ export const ArcGauge = ({...props }) => {
     );
   };
 
-  const arcOptions = {
-    colors: {
-      color: props.rangeColor,
-      from: props.rangeFrom,
-      opacity: props.rangeOpacity,
-      to: props.rangeTo
+  const radialOptions = {
+    pointer: {
+      cap: {
+        color: props.capColor,
+        size: props.capSize
+      },
+      color: props.pointerColor,
+      length: props.pointerLength,
+      value: props.pointerValue
     },
     scale: {
       labels: {
@@ -57,8 +60,13 @@ export const ArcGauge = ({...props }) => {
       },
       minorUnit: props.minorUnit,
       rangeDistance: props.rangeDistance,
-      rangeLineCap: props.rangeLineCap,
       rangePlaceholderColor: props.rangePlaceholderColor,
+      ranges: {
+        color: props.rangeColor,
+        from: props.rangeFrom,
+        opacity: props.rangeOpacity,
+        to: props.rangeTo
+      },
       rangeSize: props.rangeSize,
       reverse: props.reverse,
       startAngle: props.startAngle
@@ -67,22 +75,22 @@ export const ArcGauge = ({...props }) => {
 
   return (
     <>
-      <KendoArcGauge {...props} {...arcOptions} arcCenterRender={arcCenterRenderer}/>
+      <KendoRadialGauge {...props} {...radialOptions}/>
     </>
   );
 };
 
-ArcGauge.propTypes = {
+RadialGauge.propTypes = {
   children: PropTypes.any,
   className: PropTypes.string,
-  color: PropTypes.string,
-  // Color Range Child Props
-    rangeColor: PropTypes.string,
-    rangeFrom: PropTypes.number,
-    rangeOpacity: PropTypes.number,
-    rangeTo: PropTypes.number,
   dir: PropTypes.oneOf(['ltr', 'rtl', 'auto']),
-  opacity: PropTypes.number,
+  // Pointer Child Props
+    // Pointer Cap Child props
+    capColor: PropTypes.string,
+    capSize: PropTypes.number,
+  pointerColor: PropTypes.string,
+  pointerLength: PropTypes.number,
+  pointerValue: PropTypes.number,
   renderAs: PropTypes.oneOf(['canvas', 'svg']),
   // Scale Child Props
     endAngle: PropTypes.number,
@@ -100,30 +108,32 @@ ArcGauge.propTypes = {
       labelPosition: PropTypes.oneOf(['inside', 'outside']),
       labelVisible: PropTypes.bool,
       //Label Major Ticks Child Props
-      majorTickColor: PropTypes.string,
-      majorTickSize: PropTypes.number,
-      majorTickVisible: PropTypes.bool,
-      majorTickWidth: PropTypes.number,
+        majorTickColor: PropTypes.string,
+        majorTickSize: PropTypes.number,
+        majorTickVisible: PropTypes.bool,
+        majorTickWidth: PropTypes.number,
     majorUnit: PropTypes.number,
     max: PropTypes.number,
     min: PropTypes.number,
       //Label Minor Ticks Child Props
-      minorTickColor: PropTypes.string,
-      minorTickSize: PropTypes.number,
-      minorTickVisible: PropTypes.bool,
-      minorTickWidth: PropTypes.number,
+        minorTickColor: PropTypes.string,
+        minorTickSize: PropTypes.number,
+        minorTickVisible: PropTypes.bool,
+        minorTickWidth: PropTypes.number,
     minorUnit: PropTypes.number,
-    rangeDistance: PropTypes.number,
-    rangeLineCap: PropTypes.oneOf(['butt', 'round', 'square']),
+    // Range Child Props
+      rangeColor: PropTypes.string,
+      rangeFrom: PropTypes.number,
+      rangeOpacity: PropTypes.number,
+      rangeTo: PropTypes.number,
     rangePlaceholderColor: PropTypes.string,
     rangeSize: PropTypes.number,
     reverse: PropTypes.bool,
     startAngle: PropTypes.number,
   style: PropTypes.any,
-  transitions: PropTypes.bool,
-  value: PropTypes.number
+  transitions: PropTypes.bool
 };
 
-ArcGauge.defaultProps = {
-  value: 25
+RadialGauge.defaultProps = {
+  pointerValue: 25
 };
