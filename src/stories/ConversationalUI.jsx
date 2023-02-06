@@ -56,7 +56,7 @@ ConversationalUI.propTypes = {
   showToolbar: PropTypes.any,
   toolbar: PropTypes.any,
   user: PropTypes.any,
-  width: PropTypes.number
+  width: PropTypes.string
 
 };
 

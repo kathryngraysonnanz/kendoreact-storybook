@@ -12,7 +12,7 @@ export const Dialog = ({...props }) => {
     <div>
       <button onClick={toggleDialog}> Open Dialog </button>
       {visible && (
-        <KendoDialog {...props} themeColor="dark" onClose={toggleDialog}>
+        <KendoDialog {...props} onClose={toggleDialog}>
           <p>Are you sure you want to continue?</p>
           <DialogActionsBar>
             <button onClick={toggleDialog}>No</button>
