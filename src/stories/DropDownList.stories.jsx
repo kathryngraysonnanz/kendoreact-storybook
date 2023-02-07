@@ -3,7 +3,7 @@ import React from 'react';
 import { DropDownList } from './DropDownList';
 
 export default {
-  title: 'Dropdowns/DropDownList',
+  title: 'Dropdowns/DropDown List',
   component: DropDownList,
   argTypes: {
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { DateInput } from './DateInput';
 
 export default {
-  title: 'Date Inputs/DateInput',
+  title: 'Date Inputs/Date Input',
   component: DateInput,
   argTypes: {
 

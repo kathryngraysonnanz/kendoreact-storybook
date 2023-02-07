@@ -3,7 +3,7 @@ import React from 'react';
 import { SplitButton } from './SplitButton';
 
 export default {
-  title: 'Buttons/SplitButton',
+  title: 'Buttons/Split Button',
   component: SplitButton,
   argTypes: {
 

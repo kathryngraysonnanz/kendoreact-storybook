@@ -3,7 +3,7 @@ import React from 'react';
 import { ColorPalette } from './ColorPalette';
 
 export default {
-  title: 'Inputs/ColorPalette',
+  title: 'Inputs/Color Palette',
   component: ColorPalette,
   argTypes: {
 

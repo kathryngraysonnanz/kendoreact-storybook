@@ -3,7 +3,7 @@ import React from 'react';
 import { NumericTextBox } from './NumericTextBox';
 
 export default {
-  title: 'Inputs/NumericTextBox',
+  title: 'Inputs/Numeric TextBox',
   component: NumericTextBox,
   argTypes: {
 
@@ -34,5 +34,5 @@ NoSpinners.args = {
 
 export const PredefinedSteps = Template.bind({});
 PredefinedSteps.args = {
-  step: 5 
+  step: 5
 };

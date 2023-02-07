@@ -3,7 +3,7 @@ import React from 'react';
 import { TimePicker } from './TimePicker';
 
 export default {
-  title: 'Date Inputs/TimePicker',
+  title: 'Date Inputs/Time Picker',
   component: TimePicker,
   argTypes: {
 

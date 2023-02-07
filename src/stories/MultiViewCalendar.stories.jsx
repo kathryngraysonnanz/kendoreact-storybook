@@ -3,7 +3,7 @@ import React from 'react';
 import { MultiViewCalendar } from './MultiViewCalendar';
 
 export default {
-  title: 'Date Inputs/MultiViewCalendar',
+  title: 'Date Inputs/MultiView Calendar',
   component: MultiViewCalendar,
   argTypes: {
 

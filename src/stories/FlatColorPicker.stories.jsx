@@ -3,7 +3,7 @@ import React from 'react';
 import { FlatColorPicker } from './FlatColorPicker';
 
 export default {
-  title: 'Inputs/FlatColorPicker',
+  title: 'Inputs/Flat Color Picker',
   component: FlatColorPicker,
   argTypes: {
 

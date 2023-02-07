@@ -3,7 +3,7 @@ import React from 'react';
 import { FloatingActionButton } from './FloatingActionButton';
 
 export default {
-  title: 'Buttons/FloatingActionButton',
+  title: 'Buttons/Floating Action Button',
   component: FloatingActionButton,
   argTypes: {
 

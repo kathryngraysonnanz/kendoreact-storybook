@@ -3,7 +3,7 @@ import React from 'react';
 import { LinearGauge } from './LinearGauge';
 
 export default {
-  title: 'Gauges/LinearGauge',
+  title: 'Gauges/Linear Gauge',
   component: LinearGauge,
   argTypes: {
 

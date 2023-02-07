@@ -3,7 +3,7 @@ import React from 'react';
 import { DropDownTree } from './DropDownTree';
 
 export default {
-  title: 'Dropdowns/DropDownTree',
+  title: 'Dropdowns/DropDown Tree',
   component: DropDownTree,
   argTypes: {
 

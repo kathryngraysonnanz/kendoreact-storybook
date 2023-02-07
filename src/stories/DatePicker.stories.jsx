@@ -3,7 +3,7 @@ import React from 'react';
 import { DatePicker } from './DatePicker';
 
 export default {
-  title: 'Date Inputs/DatePicker',
+  title: 'Date Inputs/Date Picker',
   component: DatePicker,
   argTypes: {
 

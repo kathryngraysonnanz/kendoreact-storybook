@@ -3,7 +3,7 @@ import React from 'react';
 import { ColorPicker } from './ColorPicker';
 
 export default {
-  title: 'Inputs/ColorPicker',
+  title: 'Inputs/Color Picker',
   component: ColorPicker,
   argTypes: {
 

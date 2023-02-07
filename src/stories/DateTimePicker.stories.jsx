@@ -3,7 +3,7 @@ import React from 'react';
 import { DateTimePicker } from './DateTimePicker';
 
 export default {
-  title: 'Date Inputs/DateTimePicker',
+  title: 'Date Inputs/DateTime Picker',
   component: DateTimePicker,
   argTypes: {
 

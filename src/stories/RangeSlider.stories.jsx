@@ -3,7 +3,7 @@ import React from 'react';
 import { RangeSlider } from './RangeSlider';
 
 export default {
-  title: 'Inputs/RangeSlider',
+  title: 'Inputs/Range Slider',
   component: RangeSlider,
   argTypes: {
 

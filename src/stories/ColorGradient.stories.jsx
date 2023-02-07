@@ -3,7 +3,7 @@ import React from 'react';
 import { ColorGradient } from './ColorGradient';
 
 export default {
-  title: 'Inputs/ColorGradient',
+  title: 'Inputs/Color Gradient',
   component: ColorGradient,
   argTypes: {
 

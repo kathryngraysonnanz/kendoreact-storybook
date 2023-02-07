@@ -3,7 +3,7 @@ import React from 'react';
 import { MaskedTextBox } from './MaskedTextBox';
 
 export default {
-  title: 'Inputs/MaskedTextBox',
+  title: 'Inputs/Masked TextBox',
   component: MaskedTextBox,
   argTypes: {
 

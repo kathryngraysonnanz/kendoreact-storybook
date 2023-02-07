@@ -3,7 +3,7 @@ import React from 'react';
 import { DropDownButton } from './DropDownButton';
 
 export default {
-  title: 'Buttons/DropDownButton',
+  title: 'Buttons/DropDown Button',
   component: DropDownButton,
   argTypes: {
 
