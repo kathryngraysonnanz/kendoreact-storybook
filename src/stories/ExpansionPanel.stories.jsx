@@ -16,3 +16,8 @@ export const Primary = Template.bind({});
 Primary.args = {
 };
 Primary.storyName = 'Default';
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  disabled: true
+};

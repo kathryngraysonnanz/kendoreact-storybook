@@ -11,23 +11,12 @@ export const ExpansionPanel = ({...props }) => {
 
   const [expanded, setExpanded] = React.useState(props.expanded);
 
-  function updateExpanded() {
-    setExpanded(!expanded)
-  }
-
   return (
     <>
-    <KendoExpansionPanel {...props}>
-          {(props.expanded == true) && (
+    <KendoExpansionPanel {...props} onAction={(e) => setExpanded(!expanded)}>
+          {(expanded == true) && (
             <ExpansionPanelContent>
-              The name “Colombia” is derived from the last name of the Italian
-              navigator Christopher Columbus. It was conceived by the Venezuelan
-              revolutionary Francisco de Miranda as a reference to all of the
-              New World, but especially to those portions under Spanish law. The
-              name was later adopted by the Republic of Colombia of 1819, formed
-              from the territories of the old Viceroyalty of New Granada
-              (modern-day Colombia, Panama, Venezuela, Ecuador, and northwest
-              Brazil).
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at nibh ut ipsum aliquam ornare. Integer molestie tellus non libero vehicula, id porta velit laoreet. Nam scelerisque consequat eros quis congue. Vivamus at quam vel libero varius feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris commodo ullamcorper lacus eu aliquet. Nam at sagittis tellus. Aliquam lacinia sem a felis aliquam, sed interdum neque aliquet. Nunc facilisis magna sit amet tortor fermentum dignissim in in nulla. Etiam non quam sit amet libero mollis vestibulum. Morbi quis metus ut lorem interdum faucibus vel non nibh.
             </ExpansionPanelContent>
           )}
       </KendoExpansionPanel>
@@ -56,7 +45,5 @@ ExpansionPanel.propTypes = {
 
 ExpansionPanel.defaultProps = {
   expanded: true,
-  title: 'Columbia',
-  expandIcon: "fa fa-plus",
-  collapseIcon: "fa fa-minus"
+  title: 'Title'
 };
