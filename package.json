@@ -32,6 +32,7 @@
     "@progress/kendo-react-map": "^5.11.0",
     "@progress/kendo-react-notification": "^5.9.0",
     "@progress/kendo-react-pdf": "^5.9.0",
+    "@progress/kendo-react-pdf-viewer": "^5.11.0",
     "@progress/kendo-react-pivotgrid": "^5.9.0",
     "@progress/kendo-react-popup": "^5.9.0",
     "@progress/kendo-react-progressbars": "^5.9.0",
