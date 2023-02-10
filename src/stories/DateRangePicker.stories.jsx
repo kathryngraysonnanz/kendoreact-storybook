@@ -3,7 +3,7 @@ import React from 'react';
 import { DateRangePicker } from './DateRangePicker';
 
 export default {
-  title: 'Date Inputs/DateRangePicker',
+  title: 'Date Inputs/DateRange Picker',
   component: DateRangePicker,
   argTypes: {
 

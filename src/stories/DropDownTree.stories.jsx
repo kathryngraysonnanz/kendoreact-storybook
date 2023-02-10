@@ -15,4 +15,4 @@ const Template = (args) => <DropDownTree {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
-Primary.storyName = 'DropDownTree';
+Primary.storyName = 'DropDown Tree';

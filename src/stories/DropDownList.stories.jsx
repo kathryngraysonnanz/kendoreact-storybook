@@ -15,4 +15,4 @@ const Template = (args) => <DropDownList {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
-Primary.storyName = 'DropDownList';
+Primary.storyName = 'DropDown List';
