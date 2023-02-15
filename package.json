@@ -40,6 +40,7 @@
     "@progress/kendo-react-scheduler": "^5.11.0",
     "@progress/kendo-react-scrollview": "^5.11.0",
     "@progress/kendo-react-sortable": "^5.9.0",
+    "@progress/kendo-react-taskboard": "^5.11.0",
     "@progress/kendo-react-tooltip": "^5.9.0",
     "@progress/kendo-react-treelist": "^5.9.0",
     "@progress/kendo-react-treeview": "^5.9.0",
