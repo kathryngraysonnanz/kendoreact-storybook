@@ -6,6 +6,9 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
+    '@storybook/addon-a11y',
+    'aria-live-storybook-addon',
+    'storybook-addon-pseudo-states',
     "@storybook/addon-interactions",
     "@storybook/preset-create-react-app"
   ],
