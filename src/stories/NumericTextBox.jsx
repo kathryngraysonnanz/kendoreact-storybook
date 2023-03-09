@@ -7,7 +7,7 @@ export const NumericTextBox = ({...props }) => {
 
   return (
     <>
-      <KendoNumericTextBox {...props} />
+      <KendoNumericTextBox {...props} style={{width: 200}}/>
     </>
   );
 };

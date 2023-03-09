@@ -7,7 +7,7 @@ import './assets/index.scss';
 export const PanelBar = ({...props }) => {
   return (
     <>
-    <KendoPanelBar {...props}>
+    <KendoPanelBar {...props} style={{width: 400}}>
      <PanelBarItem title="Team">
        <PanelBarItem title="John Dow" />
        <PanelBarItem title="Ann Brown" />

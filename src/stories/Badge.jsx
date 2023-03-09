@@ -40,5 +40,6 @@ Badge.propTypes = {
 };
 
 Badge.defaultProps = {
-  vertical: 'top'
+  vertical: 'top',
+  horizontal: 'end'
 };

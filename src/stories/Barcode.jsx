@@ -37,5 +37,6 @@ Barcode.propTypes = {
 };
 
 Barcode.defaultProps = {
-
+  type: "EAN13",
+  value: "123456789012"
 };

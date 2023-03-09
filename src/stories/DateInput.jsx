@@ -51,5 +51,5 @@ DateInput.propTypes = {
 };
 
 DateInput.defaultProps = {
-
+  width: 200
 };

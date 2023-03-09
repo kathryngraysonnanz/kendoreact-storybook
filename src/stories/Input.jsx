@@ -7,7 +7,7 @@ export const Input = ({...props }) => {
 
   return (
     <>
-      <KendoInput {...props} />
+      <KendoInput {...props} style={{width: 200}}/>
     </>
   );
 };

@@ -15,4 +15,4 @@ const Template = (args) => <Drawer {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
-Primary.storyName = 'Default';
+Primary.storyName = 'Drawer';

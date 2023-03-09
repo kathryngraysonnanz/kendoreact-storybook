@@ -8,7 +8,7 @@ const sizes = ["X-Small", "Small", "Medium", "Large", "X-Large", "2X-Large"];
   return (
     <>
       <p>Choose sizes:</p>
-      <KendoMultiSelect {...props} data={sizes}/>
+      <KendoMultiSelect {...props} data={sizes} style={{width: 300}}/>
     </>
   );
 };

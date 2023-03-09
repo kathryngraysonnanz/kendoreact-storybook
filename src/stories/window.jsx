@@ -48,4 +48,5 @@ Window.propTypes = {
 };
 
 Window.defaultProps = {
+   modal: true
 };

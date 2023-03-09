@@ -15,4 +15,4 @@ const Template = (args) => <Card {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
 };
-Primary.storyName = 'Default';
+Primary.storyName = 'Card';

@@ -9,7 +9,7 @@ export const ComboBox = ({...props }) => {
   return (
     <>
       <p>Choose your favorite:</p>
-      <KendoComboBox {...props} data={countries}/>
+      <KendoComboBox {...props} data={countries} style={{width: 200}}/>
     </>
   );
 };

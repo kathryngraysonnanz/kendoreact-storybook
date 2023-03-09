@@ -51,5 +51,5 @@ DatePicker.propTypes = {
 };
 
 DatePicker.defaultProps = {
-
+  width: 200
 };

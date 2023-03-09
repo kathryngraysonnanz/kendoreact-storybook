@@ -53,6 +53,7 @@ const [value, setValue] = React.useState(null);
         selectField={selectField}
         expandField={expandField}
         onExpandChange={onExpandChange}
+        style={{width: 200}}
       />
     </>
   );

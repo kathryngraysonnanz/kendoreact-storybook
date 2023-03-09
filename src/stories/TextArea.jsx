@@ -7,7 +7,7 @@ export const TextArea = ({...props }) => {
 
   return (
     <>
-      <KendoTextArea {...props} />
+      <KendoTextArea {...props} style={{width: 300}}/>
     </>
   );
 };

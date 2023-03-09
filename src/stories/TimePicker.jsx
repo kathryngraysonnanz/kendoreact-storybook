@@ -45,9 +45,9 @@ TimePicker.propTypes = {
   validationMessage: PropTypes.string,
   validityStyles: PropTypes.bool,
   value: PropTypes.instanceOf(Date),
-  width: PropTypes.string 
+  width: PropTypes.string
 };
 
 TimePicker.defaultProps = {
-
+  width: 200
 };

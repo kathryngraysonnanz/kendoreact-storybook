@@ -50,5 +50,5 @@ DateTimePicker.propTypes = {
 };
 
 DateTimePicker.defaultProps = {
-
+  width: 300
 };

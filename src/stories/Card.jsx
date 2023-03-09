@@ -16,7 +16,7 @@ export const Card = ({...props }) => {
 
   return (
     <>
-    <KendoCard {...props}>
+    <KendoCard {...props} style={{width: 250}}>
         <CardImage src="https://store-images.s-microsoft.com/image/apps.29972.14474337564596307.6c783b22-9460-4205-938c-2969961ed85c.aa21aff2-b2b2-411b-88bb-158187c6e238?mode=scale&q=90&h=1080&w=1920" />
         <div className="k-vbox">
           <CardHeader>

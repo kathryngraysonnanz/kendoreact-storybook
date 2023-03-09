@@ -13,7 +13,7 @@ export const ExpansionPanel = ({...props }) => {
 
   return (
     <>
-    <KendoExpansionPanel {...props} onAction={(e) => setExpanded(!expanded)}>
+    <KendoExpansionPanel style={{width: 400}} {...props} onAction={(e) => setExpanded(!expanded)}>
           {(expanded == true) && (
             <ExpansionPanelContent>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at nibh ut ipsum aliquam ornare. Integer molestie tellus non libero vehicula, id porta velit laoreet. Nam scelerisque consequat eros quis congue. Vivamus at quam vel libero varius feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris commodo ullamcorper lacus eu aliquet. Nam at sagittis tellus. Aliquam lacinia sem a felis aliquam, sed interdum neque aliquet. Nunc facilisis magna sit amet tortor fermentum dignissim in in nulla. Etiam non quam sit amet libero mollis vestibulum. Morbi quis metus ut lorem interdum faucibus vel non nibh.

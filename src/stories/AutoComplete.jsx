@@ -9,7 +9,7 @@ export const AutoComplete = ({...props }) => {
   return (
     <>
       <p>Type the name of a European country:</p>
-      <KendoAutoComplete {...props} data={countries}/>
+      <KendoAutoComplete {...props} data={countries} style={{width: 200}}/>
     </>
   );
 };
@@ -49,5 +49,4 @@ AutoComplete.propTypes = {
 };
 
 AutoComplete.defaultProps = {
-
 };
