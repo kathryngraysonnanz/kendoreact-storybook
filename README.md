@@ -1,6 +1,6 @@
 # KendoReact Storybook
 
-This project is a Storybook instance that has been pre-loaded with all 100+ KendoReact UI components. It will be updated with any new components after every major release.
+This project is a Storybook instance that has been pre-loaded with all 100+ [KendoReact](https://www.telerik.com/kendo-react-ui) UI components. It will be updated with any new components after [every major release](https://www.telerik.com/kendo-react-ui/components/changelogs/ui-for-react/).
 
 This is intended to be a blank slate for you and your team to edit, customize, and build on top of. To that end, it currently includes no documentation beyond PropTypes (full KendoReact component documentation can be found [here](https://www.telerik.com/kendo-react-ui-develop/components/introduction/)) and no styling beyond the default KendoReact theme (learn more about theming [here](https://www.telerik.com/kendo-react-ui-develop/components/styling/)).
 
