@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# KendoReact Storybook
+
+This project is a Storybook instance that has been pre-loaded with all 100+ KendoReact UI components. It will be updated with any new components after every major release.
+
+This is intended to be a blank slate for you and your team to edit, customize, and build on top of. To that end, it currently includes no documentation beyond PropTypes (full KendoReact component documentation can be found [here](https://www.telerik.com/kendo-react-ui-develop/components/introduction/)) and no styling beyond the default KendoReact theme (learn more about theming [here](https://www.telerik.com/kendo-react-ui-develop/components/styling/)).
+
+**Fork this repo to jump-start your own KendoReact Storybook!**
+
+## Storybook Integrations
+
+The following addons have been installed to this Storybook instance:
+  - @storybook/addon-a11y
+  - aria-live-storybook-addon
+  - storybook-addon-pseudo-states
+
+Note that all of these addons are accessibility-related. KendoReact is, by default, built to be accessible. You can read more about our commitment to accessibility and technical specifications [here](https://www.telerik.com/kendo-react-ui-develop/components/accessibility/)). However, custom styling and changes can sometimes create inaccessible components. We encourage you to use the accessibility testing addons to ensure that the components are still meeting accessibility standards.
+
+Beyond that, we have refrained from customizing the Storybook instance so that you have a fresh start for your new project. Check out [the Storybook Integrations Library](https://storybook.js.org/integrations) to find more useful addons.
+
+## Reporting Issues  
+
+If you find any bugs, errors, or other issues with this project, please reach out to us! The KendoReact Developer Advocate and primary maintainer of this repo is Kathryn Grayson Nanz. You can email her at `nanz @ progress.com` or contact her via Twitter @kathryngrayson with any questions or comments related to this project or KendoReact in general.
+
+## Running Storybook
+
+Use `npm run storybook` to launch the Storybook instance!
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
