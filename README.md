@@ -19,7 +19,7 @@ Beyond that, we have refrained from customizing the Storybook instance so that y
 
 ## Reporting Issues  
 
-If you find any bugs, errors, or other issues with this project, please reach out to us! The KendoReact Developer Advocate and primary maintainer of this repo is Kathryn Grayson Nanz. You can email her at `nanz @ progress.com` or contact her via Twitter @kathryngrayson with any questions or comments related to this project or KendoReact in general.
+If you find any bugs, errors, or other issues with this project, please reach out to us! The KendoReact Developer Advocate and primary maintainer of this repo is Kathryn Grayson Nanz. You can email her at `nanz @ progress.com` or contact her via Twitter `@kathryngrayson` with any questions or comments related to this project or KendoReact in general.
 
 ## Running Storybook
 
