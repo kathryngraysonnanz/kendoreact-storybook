@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { Button as KendoButton } from "@progress/kendo-react-buttons";
 import './assets/index.scss';
 
-export const Button = ({label, ...props }) => {
+export const Button = ({...props }) => {
   return (
     <>
-      <KendoButton {...props}> {label} </KendoButton>
+      <KendoButton {...props}> {props.label} </KendoButton>
     </>
   );
 };
