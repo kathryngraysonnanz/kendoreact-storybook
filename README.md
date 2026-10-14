@@ -1,6 +1,6 @@
 # KendoReact Storybook
 
-This project is a Storybook instance that has been pre-loaded with all 100+ [KendoReact](https://www.telerik.com/kendo-react-ui) UI components. It will be updated with any new components after [every major release](https://www.telerik.com/kendo-react-ui/components/changelogs/ui-for-react/).
+This project is a Storybook instance that has been pre-loaded with all 100+ [KendoReact](https://www.telerik.com/kendo-react-ui) UI components.
 
 ## [Live demo here!](https://kathryngraysonnanz.github.io/kendoreact-storybook)
 
